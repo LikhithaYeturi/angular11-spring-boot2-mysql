@@ -2,7 +2,7 @@ name: Java CI with Maven and uploading artifact as WAR file
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   build-and-test-maven:
     runs-on: ubuntu-latest
